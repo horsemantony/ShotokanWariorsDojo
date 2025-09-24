@@ -29,7 +29,7 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
-/*Pseudo selectors*/
+/*Navigation Pseudo selectors*/
 .nav-links a:hover {
     background-color: #555;
     border-radius: 5px;
@@ -40,3 +40,4 @@ body{
     border-radius: 5px;
     transform: scale(1.1); 
 }
+
