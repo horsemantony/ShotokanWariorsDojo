@@ -3,7 +3,8 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: rgb(180, 174, 120);
+    background-color: rgb(29, 29, 29);
+    text-align: center;
 }
 
 /*Navigation*/
@@ -29,6 +30,13 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* Header Styling */
+header {
+    background-color: rgb(74, 10, 10);
+    padding: 20px 0;
+    text-align: center;
+}
+
 /*Navigation Pseudo selectors*/
 .nav-links a:hover {
     background-color: #555;
@@ -41,3 +49,97 @@ body{
     transform: scale(1.1); 
 }
 
+/* Section Styling */
+section {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(68, 68, 68);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(74, 10, 10);
+    padding: 20px;
+    text-align: center;
+}
+
+footer h5 {
+    margin: 10px 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .nav-links {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 900px) {
+    html {
+        font-size: 18px; /*Increase base font size for larger screens*/
+    }
+}
+
+/*Map*/
+iframe {
+    width: 100%;
+    max-width: 800px;  /* limit on large screens */
+    height: 450px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 2rem auto; 
+}
+
+/*Responsive Adjustment*/
+@media (max-width: 768px) {
+    iframe {
+        height: 350px;  
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        height: 250px;  
+        border-radius: 8px;
+    }
+}
