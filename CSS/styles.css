@@ -1,0 +1,42 @@
+/*General Reset*/
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(180, 174, 120);
+}
+
+/*Navigation*/
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/*Pseudo selectors*/
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+    transform: scale(1.1); /*zoom effect*/
+}
+.nav-links a:active {
+    background-color: rgb(142, 2, 2);
+    border-radius: 5px;
+    transform: scale(1.1); 
+}
