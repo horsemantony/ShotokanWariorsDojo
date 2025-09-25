@@ -194,11 +194,8 @@ iframe {
 }
 
 /*tables*/
-form{
-    align-items: center;
-}
 td{
-    color: wheat;
+    color: white;
     padding: 10px;
     margin: 10px 0;
     align-items: center;
@@ -230,6 +227,21 @@ td{
     transform: scale(1.1); 
 }
 
+/*Team*/
+#imgTony, #imgHashuri, #imgJackie{
+    width: 200px;
+}
+#secTony, #secHashuri, #secJackie{
+    width: 20%;
+}
+#secTony:hover, #secHashuri:hover, #secJackie:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px red;
+    transition: all 0.3s ease-in-out;
+}
+.staff-container{
+    display: flex;
+}
 
 
 
