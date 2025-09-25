@@ -194,11 +194,15 @@ iframe {
 }
 
 /*tables*/
+table{
+    margin: 0 auto; /*Aligns table centre of the screen*/
+    padding: 20px;
+}
 td{
+    font-size: 20px;
     color: white;
     padding: 10px;
     margin: 10px 0;
-    align-items: center;
 }
 
 /*Button*/
@@ -243,5 +247,14 @@ td{
     display: flex;
 }
 
+/*Image*/
+#imgBeach, #imgDojo, #figure2{
+    width: 50%;
+}
 
-
+#emailLink{
+    color: black;
+}
+#emailLink:hover{
+    color: red;
+}
