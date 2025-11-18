@@ -6,7 +6,7 @@ function displayDate() {
 }
 displayDate();
 
-//Adding accordion buttons
+/*Accordion buttons*/
 const acc = document.querySelectorAll(".accordion");
 acc.forEach(button => {
     button.addEventListener("click", () => {
@@ -14,3 +14,14 @@ acc.forEach(button => {
     panel.style.display = panel.style.display === "block" ? "none" : "block";
     });
 });
+
+/*Image LightBox*/
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightboxImage");
+document.querySelectorAll(".staffImage").forEach(img => {
+    img.addEventListener("click", () => {
+        lightboxImg.src = img.src.replace("100", "600");
+        lightbox.style.display = "flex";
+    });
+});
+lightbox.addEventListener("click", () => lightbox.style.display = "none");
