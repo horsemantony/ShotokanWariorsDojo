@@ -22,12 +22,17 @@ v1.0.0 – Initial Release (2025-08-27)
 
     Added navigation bar, Contents for pages and footer
 
-v1.1.0 – Latest Update (2025-09-26)
+v1.1.0 – Second Update (2025-09-26)
+
     Added css for decoration, layout, and typography
 
     Improved mobile responsiveness
 
     Added responsive CSS styling
+
+v1.2.0 - Latest Update (2025-11-19)
+
+      Created javascript.js
 
 File & Folder Structure
 
