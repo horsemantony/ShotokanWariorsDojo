@@ -25,3 +25,26 @@ document.querySelectorAll(".staffImage").forEach(img => {
     });
 });
 lightbox.addEventListener("click", () => lightbox.style.display = "none");
+
+//Form Input validation
+const form = document.getElementById('enquiryForm');
+const successMessage = document.getElementById('successMessage');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault(); 
+
+    // Simple form validation
+    const inpName = form.inpName.value.trim();
+    const inpEmail = form.inpEmail.value.trim();
+    const inpNumber = form.inpNumber.value.trim();
+    const inpMessage = form.inpMessage.value.trim();
+    
+    if (!inpName || !inpEmail || !inpNumber || !inpMessage) {
+        alert("Fill in all required fields");
+        return;
+    }
+
+    // Show success message and clear form
+    successMessage.style.display = 'block';
+    form.reset();
+});

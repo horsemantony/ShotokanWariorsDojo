@@ -178,7 +178,7 @@ iframe {
     border-color: red;
 }
 
-#inpNumber{
+#inpNumber, textarea{
     background-color: transparent;
     color: white;
     width: 100%;
@@ -189,8 +189,19 @@ iframe {
     outline: none;
     transition: border-color 0.2s ease;
 }
-#inpNumber:focus{
+#inpNumber:focus, textarea:focus{
     border-color: red;
+}
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+.message {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
 }
 
 /*tables*/
