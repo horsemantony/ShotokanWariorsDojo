@@ -45,7 +45,7 @@ function handleFormSubmission(formId, successMessageId) {
             alert("Fill in all required fields");
             return;
         }else{
-            alert("Enquiry Submitted Successfully");
+            alert("Submitted Successfully!");
         }
 
         //Display Message
