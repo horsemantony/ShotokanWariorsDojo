@@ -32,7 +32,11 @@ v1.1.0 – Second Update (2025-09-26)
 
 v1.2.0 - Latest Update (2025-11-19)
 
-      Created javascript.js
+    Created javascript.js
+    Inserted Date (Dynamic Content)
+    Added Accordian Buttons (Interactive Elements)
+    Added Gallery Lighbox
+    
 
 File & Folder Structure
 
