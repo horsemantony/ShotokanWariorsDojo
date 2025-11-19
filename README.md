@@ -37,6 +37,7 @@ v1.2.0 - Latest Update (2025-11-19)
     Added Accordian Buttons (Interactive Elements)
     Added Gallery Lighbox
     Enquiry form input validation and feedback
+    Contact form input validation and feedback
 
 File & Folder Structure
 
@@ -49,6 +50,9 @@ File & Folder Structure
     │
     ├── css/
     │   └── styles.css           # Main stylesheet   
+    │
+    ├── JavaScript/
+    │   └── javascript.js           # Scriptsheet  
     │
     └── assets/
     |     ├── images             # Images used in the site  
@@ -73,5 +77,7 @@ Usage Instructions
 
 REFERENCES
     W3Schools. (2025, September 12). W3Schools. Retrieved from W3Schools: https://www.w3schools.com/cssref/pr_class_cursor.php
+
+    E. Majikijela., 2025. Web Development. [online] Available at: <https://mystudies.iie.edu.za/d2l/home/43668>  [Accessed 18 November 2025]
 
     B. Khabo., 2025. Web Development. [online] Available at: <https://mystudies.iie.edu.za/d2l/home/43668>  [Accessed 25 August 2025]
