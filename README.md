@@ -36,7 +36,7 @@ v1.2.0 - Latest Update (2025-11-19)
     Inserted Date (Dynamic Content)
     Added Accordian Buttons (Interactive Elements)
     Added Gallery Lighbox
-    
+    Enquiry form input validation and feedback
 
 File & Folder Structure
 

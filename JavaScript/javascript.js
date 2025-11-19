@@ -26,25 +26,31 @@ document.querySelectorAll(".staffImage").forEach(img => {
 });
 lightbox.addEventListener("click", () => lightbox.style.display = "none");
 
-//Form Input validation
-const form = document.getElementById('enquiryForm');
-const successMessage = document.getElementById('successMessage');
+//Enquiry Form
+function handleFormSubmission(formId, successMessageId) {
+    const form = document.getElementById(formId);
+    const successMessage = document.getElementById(successMessageId);
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault(); 
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); 
 
-    // Simple form validation
-    const inpName = form.inpName.value.trim();
-    const inpEmail = form.inpEmail.value.trim();
-    const inpNumber = form.inpNumber.value.trim();
-    const inpMessage = form.inpMessage.value.trim();
-    
-    if (!inpName || !inpEmail || !inpNumber || !inpMessage) {
-        alert("Fill in all required fields");
-        return;
-    }
+        //Form Validation
+        const inpName = form.inpName.value.trim();
+        const inpEmail = form.inpEmail.value.trim();
+        const inpNumber = form.inpNumber.value.trim();
+        const inpMessage = form.inpMessage.value.trim();
+        
+        // Validate inputs
+        if (!inpName || !inpEmail || !inpNumber || !inpMessage) {
+            alert("Fill in all required fields");
+            return;
+        }else{
+            alert("Enquiry Submitted Successfully");
+        }
 
-    // Show success message and clear form
-    successMessage.style.display = 'block';
-    form.reset();
-});
+        //Display Message
+        successMessage.style.display = 'block';
+        form.reset();
+    });
+}
+
