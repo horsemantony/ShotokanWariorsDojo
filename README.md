@@ -38,6 +38,7 @@ v1.2.0 - Latest Update (2025-11-19)
     Added Gallery Lighbox
     Enquiry form input validation and feedback
     Contact form input validation and feedback
+    All Meta SEO's added
 
 File & Folder Structure
 
